@@ -4,6 +4,16 @@ Alexandria is designed with a public/private boundary from the beginning.
 
 The public repository is a derived package. It is not a mirror of the live vault.
 
+```mermaid
+flowchart LR
+    P["Private working vault<br/>Live state - Logs - Personal context"] --> L["Extract the useful lesson"]
+    L --> S["Sanitize and rewrite"]
+    S --> R["Privacy and safety review"]
+    R --> U["Public package<br/>Methods - Diagrams - Templates - Summaries"]
+
+    P -. "Never copy raw" .-> X["Blocked from publication"]
+```
+
 ## Why The Boundary Exists
 
 AI-assisted systems collect sensitive context quickly:
