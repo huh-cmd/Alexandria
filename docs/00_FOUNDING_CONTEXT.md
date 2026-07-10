@@ -22,6 +22,13 @@ Alexandria is named after that problem:
 
 The early system was more philosophical. Repeated use forced it to become more operational.
 
+```mermaid
+flowchart LR
+    A["May 2026<br/>Continuity foundation"] --> B["June 2026<br/>Operational tests and repairs"]
+    B --> C["July 2026<br/>Verification project closed"]
+    C --> D["Operations era<br/>Judged on real workloads"]
+```
+
 The current public proof focuses on:
 
 - agent relay
